@@ -239,7 +239,6 @@
 		43BA718A201EE8CF0058961E /* NSTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8FDF21C7290350073BE78 /* NSTimeInterval.swift */; };
 		43BA718B201EE93C0058961E /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303C4901E2D664200ADEDC8 /* TimeZone.swift */; };
 		43BA718C201EEE5A0058961E /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434FB64B1D712449007B9C70 /* NSData.swift */; };
-		43BA7191202020140058961E /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D8FDCB1C728FDF0073BE78 /* LoopKit.framework */; };
 		43BA7192202039950058961E /* RepeatingScheduleValueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D8FE0B1C7290530073BE78 /* RepeatingScheduleValueTableViewCell.xib */; };
 		43BA7193202039A30058961E /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 434FF1EF1CF29451000DB779 /* TextFieldTableViewCell.xib */; };
 		43BA7194202039A90058961E /* GlucoseRangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D8FE081C7290530073BE78 /* GlucoseRangeTableViewCell.xib */; };
@@ -321,8 +320,6 @@
 		892A5D52222F03DB008961AB /* TestingDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892A5D51222F03DB008961AB /* TestingDeviceManager.swift */; };
 		892A5D54222F03F9008961AB /* TestingPumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892A5D53222F03F9008961AB /* TestingPumpManager.swift */; };
 		892A5D56222F0414008961AB /* TestingCGMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892A5D55222F0414008961AB /* TestingCGMManager.swift */; };
-		892A5D57222F04E2008961AB /* LoopTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892A5D34222F03CB008961AB /* LoopTestingKit.framework */; };
-		892A5D5C222F1210008961AB /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D8FDCB1C728FDF0073BE78 /* LoopKit.framework */; };
 		892A5D61222F6AF4008961AB /* BasalScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892A5D60222F6AF3008961AB /* BasalScheduleTableViewController.swift */; };
 		892A5D64222F6B13008961AB /* BasalScheduleEntryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 892A5D62222F6B13008961AB /* BasalScheduleEntryTableViewCell.xib */; };
 		892A5D65222F6B13008961AB /* BasalScheduleEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892A5D63222F6B13008961AB /* BasalScheduleEntryTableViewCell.swift */; };
@@ -334,9 +331,6 @@
 		89D2048221CC7BD8001238CC /* MockKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D2047421CC7BD7001238CC /* MockKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89D2048921CC7BF7001238CC /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4301582C1C7ECD7A00B64B63 /* HealthKit.framework */; };
 		89D2049F21CC7C13001238CC /* MockKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D2049121CC7C13001238CC /* MockKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89D204A621CC7C55001238CC /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D8FDCB1C728FDF0073BE78 /* LoopKit.framework */; };
-		89D204A721CC7C5C001238CC /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BA7154201E484D0058961E /* LoopKitUI.framework */; };
-		89D204A821CC7C60001238CC /* MockKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D2047221CC7BD7001238CC /* MockKit.framework */; };
 		89D204A921CC7C8F001238CC /* MockPumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB9EC621A4774500351324 /* MockPumpManager.swift */; };
 		89D204AA21CC7C8F001238CC /* MockGlucoseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCD4F721A8D5500068C3FB /* MockGlucoseProvider.swift */; };
 		89D204AB21CC7C8F001238CC /* MockCGMDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCD4F121A87D340068C3FB /* MockCGMDataSource.swift */; };
@@ -445,6 +439,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 89D2047121CC7BD7001238CC;
 			remoteInfo = MockKit;
+		};
+		C124FE6D2256892B004FD548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D8FDC21C728FDF0073BE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D8FDCA1C728FDF0073BE78;
+			remoteInfo = LoopKit;
+		};
+		C124FE6F22568937004FD548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D8FDC21C728FDF0073BE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 892A5D33222F03CB008961AB;
+			remoteInfo = LoopTestingKit;
+		};
+		C124FE7122568940004FD548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D8FDC21C728FDF0073BE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D8FDCA1C728FDF0073BE78;
+			remoteInfo = LoopKit;
+		};
+		C124FE7322568953004FD548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D8FDC21C728FDF0073BE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BA7153201E484D0058961E;
+			remoteInfo = LoopKitUI;
+		};
+		C124FE7522568957004FD548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D8FDC21C728FDF0073BE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89D2047121CC7BD7001238CC;
+			remoteInfo = MockKit;
+		};
+		C124FE7722568963004FD548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D8FDC21C728FDF0073BE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D8FDCA1C728FDF0073BE78;
+			remoteInfo = LoopKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -951,7 +987,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4353D171203D3E71007B4ECD /* HealthKit.framework in Frameworks */,
-				43BA7191202020140058961E /* LoopKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,7 +1011,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892A5D5C222F1210008961AB /* LoopKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -992,8 +1026,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892A5D57222F04E2008961AB /* LoopTestingKit.framework in Frameworks */,
-				89D204A621CC7C55001238CC /* LoopKit.framework in Frameworks */,
 				89D2048921CC7BF7001238CC /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1010,8 +1042,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D204A821CC7C60001238CC /* MockKit.framework in Frameworks */,
-				89D204A721CC7C5C001238CC /* LoopKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1749,6 +1779,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C124FE6E2256892B004FD548 /* PBXTargetDependency */,
 			);
 			name = LoopKitUI;
 			productName = LoopKitUI;
@@ -1803,6 +1834,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C124FE7822568963004FD548 /* PBXTargetDependency */,
 			);
 			name = LoopTestingKit;
 			productName = LoopTestingKit;
@@ -1840,6 +1872,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				C124FE7222568940004FD548 /* PBXTargetDependency */,
+				C124FE7022568937004FD548 /* PBXTargetDependency */,
 			);
 			name = MockKit;
 			productName = MockKit;
@@ -1876,6 +1910,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				C124FE7622568957004FD548 /* PBXTargetDependency */,
+				C124FE7422568953004FD548 /* PBXTargetDependency */,
 			);
 			name = MockKitUI;
 			productName = MockKitUI;
@@ -2521,6 +2557,36 @@
 			isa = PBXTargetDependency;
 			target = 89D2047121CC7BD7001238CC /* MockKit */;
 			targetProxy = 89D2047C21CC7BD8001238CC /* PBXContainerItemProxy */;
+		};
+		C124FE6E2256892B004FD548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D8FDCA1C728FDF0073BE78 /* LoopKit */;
+			targetProxy = C124FE6D2256892B004FD548 /* PBXContainerItemProxy */;
+		};
+		C124FE7022568937004FD548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 892A5D33222F03CB008961AB /* LoopTestingKit */;
+			targetProxy = C124FE6F22568937004FD548 /* PBXContainerItemProxy */;
+		};
+		C124FE7222568940004FD548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D8FDCA1C728FDF0073BE78 /* LoopKit */;
+			targetProxy = C124FE7122568940004FD548 /* PBXContainerItemProxy */;
+		};
+		C124FE7422568953004FD548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43BA7153201E484D0058961E /* LoopKitUI */;
+			targetProxy = C124FE7322568953004FD548 /* PBXContainerItemProxy */;
+		};
+		C124FE7622568957004FD548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89D2047121CC7BD7001238CC /* MockKit */;
+			targetProxy = C124FE7522568957004FD548 /* PBXContainerItemProxy */;
+		};
+		C124FE7822568963004FD548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D8FDCA1C728FDF0073BE78 /* LoopKit */;
+			targetProxy = C124FE7722568963004FD548 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
